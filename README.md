@@ -25,5 +25,15 @@ Pastikan Python (versi 3.8 atau lebih baru) telah terinstal di komputer.
 1. Unduh atau lakukan clone repository ini ke komputer lokal.
 2. Buka terminal atau Command Prompt, lalu arahkan direktori ke dalam folder proyek ini.
 3. Buat virtual environment baru dengan menjalankan perintah berikut
-   ```bash
-   python -m venv .venv
+   ```python -m venv .venv```
+4. Instal seluruh dependensi dan library pendukung melalui file requirements.txt:
+   ```pip install -r requirements.txt```
+
+### Aktivasi Venv
+1. Untuk sistem operasi Windows:
+   ```.\.venv\Scripts\activate```
+2. Untuk sistem operasi macOS/Linux:
+   ```source .venv/bin/activate```
+
+### Jalankan Dasbor
+```streamlit run app.py```
